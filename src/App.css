@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  margin: 0% 35% 0% 35%;
+}
+
+.Logo-header {
+  max-width: 100%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Start-btn {
+  max-width: 25%;
+}
+
+.Normal-font {
+  font-size: 125%;
+}
+
+.Footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Home-btn {
+  max-width: 10%;
+}

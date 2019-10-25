@@ -27,3 +27,8 @@
 .Home-btn {
   max-width: 10%;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}

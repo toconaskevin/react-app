@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from './components/Carousel';
+import Cities from './components/AddQuoteForm';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap'
 
@@ -19,6 +20,8 @@ export const Home = () => (
             <p>Popular MYtineraries</p>
 
             <Carousel/>
+
+            <Cities/>
 
         </body>
     </div>

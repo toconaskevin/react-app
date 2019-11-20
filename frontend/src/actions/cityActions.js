@@ -1,7 +1,7 @@
 import { GET_ITEMS, ADD_ITEM, DELETE_ITEM } from './types';
 
 export const getCities = () => async (dispatch) =>{
-  await fetch("http://localhost:5000/api/cities")
+  await fetch("https://mytinerary-api.azurewebsites.net/api/cities")
     .then((response) => response.json())
     .then((json) => {
       const cities = json.cities;
